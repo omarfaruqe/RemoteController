@@ -2,9 +2,9 @@
 This project contains two Java classes: `Remote` and `RemoteRunner`. The Remote class represents a remote control device, and the `RemoteRunner` class contains a main method that tests the `Remote` class.
 
 # Remote Class
-The Remote class encapsulates the properties of a remote control device, such as its height, width, depth, and color. It has two constructors: one that creates a default remote with predefined dimensions and color, and another that allows you to specify custom dimensions and color. The class also provides getter and setter methods for each property.
+The `Remote` class encapsulates the properties of a remote control device, such as its height, width, depth, and color. It has two constructors: one that creates a default remote with predefined dimensions and color, and another that allows you to specify custom dimensions and color. The class also provides getter and setter methods for each property.
 
-## Here is an example of how to use the Remote class:
+## Here is an example of how to use the `Remote` class:
 
 
 ```
@@ -15,9 +15,9 @@ myRemote.setWidth(6.0);
 ```
 
 # RemoteRunner Class
-The RemoteRunner class contains a main method that tests the Remote class. It creates instances of the Remote class using both the default and custom constructors, and then tests the getter and setter methods to ensure they are working correctly. It prints out the properties of the remote objects to the console so that you can verify that they have been set correctly.
+The `RemoteRunner` class contains a main method that tests the `Remote` class. It creates instances of the `Remote` class using both the default and custom constructors, and then tests the getter and setter methods to ensure they are working correctly. It prints out the properties of the remote objects to the console so that you can verify that they have been set correctly.
 
-## Here is an example of how to run the RemoteRunner class:
+## Here is an example of how to run the `RemoteRunner` class:
 
 ```
 $ javac Remote.java RemoteRunner.java
